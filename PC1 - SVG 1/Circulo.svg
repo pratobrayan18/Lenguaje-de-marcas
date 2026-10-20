@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmls="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+<!--(svg etiqueta.) (width, height, viewBox son atributos). tienen que estar con un espacio para evitar errores-->
+<!-- Las etiquetas se cierran en sus propias celdas. ejemplo(<circle  />-->
+
+    <circle cx="100" cy="100" r="90" fill="red" stroke="white" stroke-width="5"/>
+    <circle cx="100" cy="100" r="60"/>
+
+
+
+
+
+</svg>

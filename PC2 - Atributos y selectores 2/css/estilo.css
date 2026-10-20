@@ -1,0 +1,82 @@
+head{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: larger;
+}
+
+body{
+    background-color: bisque;
+    margin: 0; padding: 0;
+    
+}
+
+header{
+    background-color: rgb(168, 141, 107);
+    padding: 4%; margin: 1%; border: 5px solid;
+}
+
+.fire{
+    background-color: rgb(255, 111, 0);
+    border: 4px solid ;
+}
+
+#fire{
+    display: flex;
+}
+#fire figure{
+    margin: 0;
+    box-sizing: border-box;
+}
+#fire figure img{
+    width: 100%;
+}
+
+.water{
+    background-color: aqua;
+    border: 4px solid;
+
+}
+#water{
+    display: flex;
+}
+#water figure{
+    margin: 0;
+    box-sizing: border-box;
+}
+#water figure img{
+    width: 100%;
+}
+.grass{
+    background-color: lightgreen;
+    border: 4px solid;
+}
+#grass{
+    display: flex;
+}
+#grass figure{
+    margin: 0;
+    box-sizing: border-box;
+}
+#grass figure img{
+    width: 100%;
+}
+
+.electric{
+    background-color: rgb(255, 255, 0);
+    border: 4px solid;
+}
+
+#electric{
+    display: flex;
+}
+#electric figure{
+    margin: 0;
+    box-sizing: border-box;
+}
+#electric figure img{
+    width: 100%;
+}
+
+main strong{
+    background-color: bisque;
+}
+

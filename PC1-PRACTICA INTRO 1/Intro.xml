@@ -1,0 +1,14 @@
+<Peliculas>
+    <pelicula>
+        <titulo>Oppenheimer</titulo> 
+        <autor>Christopher Nolan</autor>
+    </pelicula>
+    <pelicula>
+        <titulo>Gran Torino</titulo>
+        <autor>Climt Eastwood</autor>
+    </pelicula>
+    <pelicula>
+        <titulo>Odisea</titulo>
+        <autor>Christopher Nolan</autor>
+    </pelicula>
+</Peliculas>

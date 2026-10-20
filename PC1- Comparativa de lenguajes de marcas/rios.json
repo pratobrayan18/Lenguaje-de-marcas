@@ -1,0 +1,100 @@
+{
+    "tituloprincipal": "Valor",
+    "rios": [
+        {
+            "tituloRio": "Río Amazonas",
+            "parrafo": "El río Amazonas se encuentra en América del Sur. Su nacimiento se sitúa en los Andes y atraviesa principalmente Perú, Colombia y Brasil. Desemboca en el océano Atlántico.",
+            "parrafo2": "Tiene una longitud aproximada de 6.400 kilómetros y es uno de los ríos con mayor caudal del planeta.",
+            "datos": {
+                "nombre": "Río Amazonas",
+                "continente": "América del Sur",
+                "países": [
+                    "Perú",
+                    "Colombia",
+                    "Brasil"
+                ],
+                "longitud": "6.400 km",
+                "desembocadura": "Océano Atlántico",
+                "nacimiento": "Andes",
+                "caudal": "Muy alto",
+                "importancia": "No aportado"
+            }
+        },
+        {
+            "tituloRio": "Río Nilo",
+            "parrafo": "El río Nilo se encuentra en África y atraviesa varios países, entre ellos Uganda, Sudán y Egipto. Desemboca en el mar Mediterráneo.",
+            "parrafo2": "Tiene una longitud aproximada de 6.650 kilómetros. Durante miles de años ha tenido una enorme importancia para las poblaciones del noreste de África.",
+            "datos": {
+                "nombre": "Río Nilo",
+                "continente": "África",
+                "países": [
+                    "Uganda",
+                    "Sudán",
+                    "Egipto"
+                ],
+                "longitud": "6.650 km",
+                "desembocadura": "Mar Mediterráneo",
+                "nacimiento": "No aportado",
+                "caudal": "Moderado",
+                "importancia": "Enorme importancia histórica y cultural"
+            }
+        },
+        {
+            "tituloRio": "Río Yangtsé",
+            "parrafo": "El Yangtsé se encuentra en Asia y recorre China de oeste a este. Desemboca en el mar de China Oriental.",
+            "parrafo2": "Tiene una longitud aproximada de 6.300 kilómetros y es el río más largo de Asia.",
+            "datos": {
+                "nombre": "Río Yangtsé",
+                "continente": "Asia",
+                "países": [
+                    "China"
+                ],
+                "longitud": "6.300 km",
+                "desembocadura": "Mar de China Oriental",
+                "nacimiento": "No aportado",
+                "caudal": "Alto",
+                "importancia": "Vital para la agricultura y la economía china"
+            }
+        },
+        {
+            "tituloRio": "Río Misisipi",
+            "parrafo": "El río Misisipi se encuentra en América del Norte y atraviesa Estados Unidos. Desemboca en el golfo de México.",
+            "parrafo2": "Tiene una longitud aproximada de 3.780 kilómetros y forma, junto con el río Misuri, uno de los grandes sistemas fluviales de Norteamérica.",
+            "datos": {
+                "nombre": "Río Misisipi",
+                "continente": "América del Norte",
+                "países": [
+                    "Estados Unidos"
+                ],
+                "longitud": "3.780 km",
+                "desembocadura": "Golfo de México",
+                "nacimiento": "No aportado",
+                "caudal": "Alto",
+                "importancia": "Importante para la navegación y el comercio"
+            }
+        },
+        {
+            "tituloRio": "Río Danubio",
+            "parrafo": "El Danubio nace en Alemania y atraviesa numerosos países europeos antes de desembocar en el mar Negro.",
+            "parrafo2": "Tiene una longitud aproximada de 2.850 kilómetros y atraviesa o sirve de frontera para países como Alemania, Austria, Eslovaquia, Hungría, Serbia, Rumanía y Bulgaria.",
+            "datos": {
+                "nombre": "Río Danubio",
+                "continente": "Europa",
+                "países": [
+                    "Alemania",
+                    "Austria",
+                    "Eslovaquia",
+                    "Hungría",
+                    "Serbia",
+                    "Rumanía",
+                    "Bulgaria"
+                ],
+                "longitud": "2.850 km",
+                "desembocadura": "Mar Negro",
+                "nacimiento": "Selva Negra, Alemania",
+                "caudal": "Moderado a alto",
+                "importancia": "Crucial para el transporte, la energía hidroeléctrica y la biodiversidad"
+            }
+        }
+    ]
+}

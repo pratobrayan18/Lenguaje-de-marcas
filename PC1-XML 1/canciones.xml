@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE canciones [ 
+
+    <!ELEMENT canciones (cancion+ )>
+    <!ELEMENT cancion (titulo,interprete,pais,genero,anio)>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT interprete (#PCDATA)>
+    <!ELEMENT pais (#PCDATA)>
+    <!ELEMENT genero (#PCDATA)>
+    <!ELEMENT anio (#PCDATA)>
+]>
+<canciones>
+    <cancion>
+        <titulo>505</titulo>
+        <interprete>Arctic Monkeys</interprete>
+        <pais>Reino unido</pais>
+        <genero>Rock</genero>
+        <anio>2007</anio>
+    </cancion>
+
+    <cancion>
+        <titulo>Hotel california</titulo>
+        <interprete>Eagles</interprete>
+        <pais>Estados unidos</pais>
+        <genero>Rock</genero>
+        <anio>1977</anio>
+    </cancion>
+
+    <cancion>
+        <titulo>billie jean</titulo>
+        <interprete>michael jackson</interprete>
+        <pais>estados unidos</pais>
+        <genero>Rock</genero>
+        <anio>1983</anio>
+    </cancion>
+
+</canciones>

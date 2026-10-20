@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<grandesrios>
+    <tituloPrincipal>Los Grandes rios</tituloPrincipal>
+    <rios>
+
+        <rios>
+
+            <titulorio>Río Amazonas</titulorio>
+
+            <parrafoprimero>El río Amazonas se encuentra en América del Sur. Su nacimiento se sitúa
+                en los Andes y atraviesa principalmente Perú, Colombia y Brasil. Desemboca en el
+                océano Atlántico.</parrafoprimero>
+
+            <parrafosegundo>Tiene una longitud aproximada de 6.400 kilómetros y es uno de los ríos
+                con mayor caudal del planeta.</parrafosegundo>
+
+            <datos>
+
+
+                <nombre>Amazonas</nombre>
+                <continente>América del Sur</continente>
+                <paises>Perú, Colombia y Brasil</paises>
+                <longitud>6.400 km</longitud>
+                <desembocadura>Océano Atlántico</desembocadura>
+                <nacimiento>Andes</nacimiento>
+                <caudal>Muy alto</caudal>
+            </datos>
+        </rios>
+
+        <rios>
+
+            <titulorio>Río Nilo</titulorio>
+
+            <primerparrafo>El río Nilo se encuentra en África y atraviesa varios países, entre ellos
+                Uganda, Sudán y Egipto. Desemboca en el mar Mediterráneo.</primerparrafo>
+
+            <parrafosegundo>Tiene una longitud aproximada de 6.650 kilómetros. Durante miles de años
+                ha tenido una enorme importancia para las poblaciones del noreste de África.</parrafosegundo>
+
+            <datos>
+
+
+                <nombre> Nilo</nombre>
+                <continente>África</continente>
+                <paises>Uganda, Sudán y Egipto</paises>
+                <longitud>6.650 km</longitud>
+                <desembocadura> Mar Mediterráneo</desembocadura>
+                <nacimiento>Región de los Grandes Lagos africanos</nacimiento>
+                <importancia>Histórica y agrícola</importancia>
+                <caudal></caudal>
+            </datos>
+        </rios>
+
+        <rios>
+
+            <titulorio> Río Yangtsé</titulorio>
+
+            <parrafoprimero>El Yangtsé se encuentra en Asia y recorre China de oeste a este.
+                Desemboca en el mar de China Oriental.</parrafoprimero>
+
+            <parrafosegundo>Tiene una longitud aproximada de 6.300 kilómetros y es el río más largo
+                de Asia.</parrafosegundo>
+
+            <datos>
+
+
+                <nombre> Yangtsé</nombre>
+                <continente>Asia</continente>
+                <paises>China</paises>
+                <longitud> 6.300 km</longitud>
+                <desembocadura>Mar de China Oriental</desembocadura>
+                <nacimiento> Meseta del Tíbet</nacimiento>
+                <caudal></caudal>
+                <importancia>Transporte, agricultura y energía</importancia>
+            </datos>
+        </rios>
+
+        <rios>
+
+            <titulorio> Río Misisipi</titulorio>
+            <parrafoprimero>El río Misisipi se encuentra en América del Norte y atraviesa Estados
+                Unidos. Desemboca en el golfo de México.</parrafoprimero>
+
+            <parrafosegundo>Tiene una longitud aproximada de 3.780 kilómetros y forma, junto con el
+                río Misuri, uno de los grandes sistemas fluviales de Norteamérica.</parrafosegundo>
+
+            <datos>
+
+
+                <nombre>Misisipi</nombre>
+                <continente> América del Norte</continente>
+                <paises>Estados Unidos</paises>
+                <longitud> 3.780 km</longitud>
+                <desembocadura>Golfo de México</desembocadura>
+                <nacimiento>Lago Itasca</nacimiento>
+                <caudal></caudal>
+                <importancia>Transporte y agricultura</importancia>
+            </datos>
+        </rios>
+
+        <rios>
+
+            <titulorio>Río Danubio</titulorio>
+            <parrafoprimero>El Danubio nace en Alemania y atraviesa numerosos países europeos antes
+                de desembocar en el mar Negro.</parrafoprimero>
+
+            <parrafosegundo>Tiene una longitud aproximada de 2.850 kilómetros y atraviesa o sirve de
+                frontera para países como Alemania, Austria, Eslovaquia, Hungría, Serbia, Rumanía y
+                Bulgaria.</parrafosegundo>
+
+            <datos>
+
+
+                <nombre>Danubio</nombre>
+                <continente>Europa</continente>
+                <paises>Alemania, Austria, Eslovaquia, Hungría, Serbia, Rumanía y Bulgaria</paises>
+                <longitud> 2.850 km</longitud>
+                <desembocadura>Mar Negro</desembocadura>
+                <nacimiento> Selva Negra, Alemania</nacimiento>
+                <caudal></caudal>
+                <importancia>Transporte, comercio y turismo</importancia>
+            </datos>
+        </rios>
+    </rios>
+</grandesrios>

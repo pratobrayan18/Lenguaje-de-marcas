@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE peliculas [
+
+
+    <!ELEMENT peliculas (pelicula+ )>
+    <!ELEMENT pelicula (titulo,interprete,pais,ano,genero)>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT interprete (#PCDATA)>
+    <!ELEMENT pais (#PCDATA)>
+    <!ELEMENT ano (#PCDATA)>
+    <!ELEMENT genero (#PCDATA)>
+]>
+<peliculas>
+    <pelicula>
+        <titulo>Una película de Minecraft</titulo>
+        <interprete>Jared Hess</interprete>
+        <pais>estados unidos</pais>
+        <ano>2025</ano>
+        <genero>Aventura / Fantasía / Comedia</genero>
+    </pelicula>
+
+    <pelicula>
+        <titulo>Lilo y Stitch</titulo>
+        <interprete>Dean Fleischer Camp</interprete>
+        <pais>estados unidos</pais>
+        <ano>2025</ano>
+        <genero>Aventura / Fantasía / Comedia</genero>
+    </pelicula>
+
+    <pelicula>
+        <titulo>entrenar a tu dragón</titulo>
+        <interprete>Dean DeBlois</interprete>
+        <pais>estados unidos</pais>
+        <ano>2025</ano>
+        <genero>Aventura / Fantasía / Comedia</genero>
+    </pelicula>
+
+    <pelicula>
+        <titulo>Los 4 Fantásticos: Primeros pasos</titulo>
+        <interprete>Matt Shakman</interprete>
+        <pais>estados unidos</pais>
+        <ano>2025</ano>
+        <genero>Aventura / Fantasía / Comedia</genero>
+    </pelicula>
+
+    <pelicula>
+        <titulo>Superman</titulo>
+        <interprete>James Gunn</interprete>
+        <pais>estados unidos</pais>
+        <ano>2025</ano>
+        <genero>Aventura / Fantasía / Comedia</genero>
+    </pelicula>
+
+    <pelicula>
+        <titulo>Zootrópolis 2</titulo>
+        <interprete>Jared Bush y Byron Howard</interprete>
+        <pais>estados unidos</pais>
+        <ano>2025</ano>
+        <genero>Aventura / Fantasía / Comedia</genero>
+    </pelicula>
+
+    <pelicula>
+        <titulo>Jurassic World: Renace</titulo>
+        <interprete>Gareth Edwards</interprete>
+        <pais>estados unidos</pais>
+        <ano>2025</ano>
+        <genero>Aventura / Fantasía / Comedia</genero>
+    </pelicula>
+
+    <pelicula>
+        <titulo>Paddington en Perú</titulo>
+        <interprete>Dougal Wilson</interprete>
+        <pais>estados unidos</pais>
+        <ano>2025</ano>
+        <genero>Aventura / Fantasía / Comedia</genero>
+    </pelicula>
+
+    <pelicula>
+        <titulo>Vaiana 2</titulo>
+        <interprete>David G. Derrick Jr., Jason Hand y Dana Ledoux Miller</interprete>
+        <pais>estados unidos</pais>
+        <ano>2025</ano>
+        <genero>Aventura / Fantasía / Comedia</genero>
+    </pelicula>
+
+    <pelicula>
+        <titulo>Elio</titulo>
+        <interprete>Adrian Molina, Madeline Sharafian y Domee Shi</interprete>
+        <pais>estados unidos</pais>
+        <ano>2025</ano>
+        <genero>Aventura / Fantasía / Comedia</genero>
+    </pelicula>
+</peliculas>
