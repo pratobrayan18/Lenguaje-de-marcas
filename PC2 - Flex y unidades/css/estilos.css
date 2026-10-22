@@ -1,0 +1,28 @@
+main.paises {
+    display: flex;
+    background-color: antiquewhite;
+    width: 80%;
+    margin: auto;
+    flex-wrap:wrap ;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+main.paises section.ficha {
+    padding: 10px;
+    border:1px solid rgb(100, 100, 98) 4px ;
+    background-color: rgb(187, 182, 182); 
+    /* flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 25%; */
+    flex: 1 0 calc(33.33% - 10px);
+    max-width: calc(33.33% - 10px);
+}
+main.paises section#Venezuela{
+    
+    /*flex-shrink: 2;*/
+}
+
+figure img{
+    width: 100%;
+}

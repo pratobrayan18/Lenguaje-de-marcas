@@ -52,7 +52,8 @@
             <def>Permite introducir numeros</def>
             <code>&lt;input type="number"&gt;</code>
             <form method="get" action="https://www.espacio199.com/clases/recibe.php">
-                <label>Introduce un numeros: <input type="number" min="1920" max="2020"  id="numero" placeholder="Escribe Aqui tu Numero" name="Numero">
+                <label>Introduce un numeros: <input type="number" min="1920" max="2020" id="numero"
+                        placeholder="Escribe Aqui tu Numero" name="Numero">
                 </label>
                 <input type="submit" enviar>
             </form>
@@ -62,11 +63,11 @@
             <def>Para direcciones web</def>
             <code>&lt;input type="text"&gt;></code>
             <form method="get" action="https://www.espacio199.com/clases/recibe.php">
-            <label>URL: <input type="text" placeholder="Dirección" name="URL">
+                <label>URL: <input type="text" placeholder="Dirección" name="URL">
 
-            </label>
-            <input type="submit" enviar>
-        </form>
+                </label>
+                <input type="submit" enviar>
+            </form>
         </section>
         <section>
             <h2>Busqueda</h2>
@@ -88,7 +89,7 @@
                 <label>¿Que quieres buscar? <input type="date" placeholder="Fecha" name="Fecha">
 
                 </label>
-                
+
                 <input type="submit" enviar>
             </form>
         </section>
@@ -100,7 +101,7 @@
                 <label>¿Que quieres buscar? <input type="time" placeholder="Hora" name="Hora">
 
                 </label>
-                
+
                 <input type="submit" enviar>
             </form>
         </section>
@@ -112,7 +113,7 @@
                 <label>¿Que quieres buscar? <input type="week" placeholder="Semana" name="Semana">
 
                 </label>
-        
+
                 <input type="submit" enviar>
             </form>
         </section>
@@ -124,7 +125,7 @@
                 <label>¿Como tienes el alma? <input type="color" placeholder="Color" name="Color">
 
                 </label>
-        
+
                 <input type="submit" enviar>
             </form>
         </section>
@@ -136,7 +137,7 @@
                 <label>Tamaño <input type="range" min="0" max="100" step="5" placeholder="Rango" name="Rango">
 
                 </label>
-        
+
                 <input type="submit" enviar>
             </form>
         </section>
@@ -145,17 +146,120 @@
             <def>Casilla de verificaión</def>
             <code>&lt;input type="Chekbox"&gt;></code>
             <form method="get" action="https://www.espacio199.com/clases/recibe.php">
-                <label>Opcion 1 <input type="checkbox" name="Opcion 1" placeholder="Casilla" >
+                <label>Opcion 1 <input type="checkbox" name="Opcion 1" placeholder="Casilla">
 
                 </label>
-                <label>Opcion 2 <input type="checkbox" name="Opcion 2" placeholder="Casilla" >
+                <label>Opcion 2 <input type="checkbox" name="Opcion 2" placeholder="Casilla">
 
                 </label>
-        
+
                 <input type="submit" enviar>
             </form>
         </section>
-        
+
+        <section>
+            <h2>Radio</h2>
+            <def>Permite una unica seleccion</def>
+            <code>&lt;input type="Radio"&gt;></code>
+            <form method="get" action="https://www.espacio199.com/clases/recibe.php">
+                <label> multiples opciones</label>
+                <label> respuesta 1
+                    <input type="radio" name="respuesta1">
+                </label>
+
+                <label> respuesta 1
+                <input type="radio" name="respuesta1">
+                </label>
+                <input type="submit" enviar>
+                
+            </form>
+        </section>
+        <section>
+            <h2>Lista desplegable</h2>
+            <def>Permite seleccionar una opcion en una lista</def>
+            <code>&lt;select&gt;></code>
+            <form method="get" action="https://www.espacio199.com/clases/recibe.php">
+                <label> Provincia de nacimiento </label>
+                <select name ="provincia">
+                    <option>Selecciona una opcion</option>
+                    <option value="Almeria">Almeria</option>
+                    <option value="Cadiz">Cadiz</option>
+                    <option value="Cordoba">Cordoba</option>
+                    <option value="Sevilla">Sevilla</option>
+
+
+                </select>
+                    
+                <input type="submit" enviar>
+        <section>
+            <h2>Lista de opcion</h2>
+            <def>Permite seleccionar una opcion en una lista</def>
+            <code>&lt;select&gt;></code>
+            <form method="get" action="https://www.espacio199.com/clases/recibe.php">
+                <label> opciones </label>
+                <select name ="opcion" multiple>
+                    <option>Selecciona una opcion</option>
+                    <option value="almeria">almeria</option>
+                    <option value="cadiz">cadiz</option>
+                    <option value="cordoba">cordoba</option>
+                    <option value="sevilla">sevilla</option>
+
+
+                </select>
+                    
+                <input type="submit" enviar>
+                
+            </form>
+        </section>
+        <section>
+            <h2>Area de texto</h2>
+            <def>Permite incluir texto en varias lineas</def>
+            <code>&lt;textarea&gt;></code>
+            <form method="get" action="https://www.espacio199.com/clases/recibe.php">
+               
+                <label> comentarios 
+                    <textarea name="comentario" cols="40" rows="7">Me gusta mucho la money</textarea>
+                </label>             
+                <input type="submit" enviar>
+                
+            </form>
+        </section>
+        <section>
+            <h2>Lista de datos</h2>
+            <def>Permite sugerencias</def>
+            <code>&lt;input list="provincias"&gt;></code>
+            <form method="get" action="https://www.espacio199.com/clases/recibe.php">
+               
+                <label> Provincias 
+                    <input list="provincias" name="provincias">
+                    <datalist id="provincias"> 
+
+                    <option value="almeria">almeria</option>
+                    <option value="cadiz">cadiz</option>
+                    <option value="cordoba">cordoba</option>
+                    <option value="sevilla">sevilla</option>
+
+                    </datalist>
+                </label>             
+                <input type="submit" enviar>
+                
+            </form>
+        </section>
+        <section>
+            <h2>Subida de archivos</h2>
+            <def>seleccionar</def>
+            <code>&lt;input list="file"&gt;></code>
+            <form method="get" action="https://www.espacio199.com/clases/recibe.php">
+               
+                <label> Seleccion un archivo 
+                    <input name="archivo" type="file">
+                 
+                </label>             
+                <input type="submit" enviar>
+                
+            </form>
+        </section>
+
 
 
 
