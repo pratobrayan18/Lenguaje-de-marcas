@@ -1,3 +1,8 @@
+h1 {
+    font-size: 4em; 
+    color: rgb(165, 42, 42);
+}
+
 main.paises {
     display: flex;
     background-color: antiquewhite;
@@ -11,7 +16,7 @@ main.paises {
 main.paises section.ficha {
     padding: 10px;
     border:1px solid rgb(100, 100, 98) 4px ;
-    background-color: rgb(187, 182, 182); 
+    background-color: rgba(187, 182, 182,40); 
     /* flex-grow: 1;
     flex-shrink: 0;
     flex-basis: 25%; */
